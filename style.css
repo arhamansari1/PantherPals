@@ -97,7 +97,9 @@ header{
 header .logo{
   font-size: 4rem;
   font-weight: bolder;
-  color:#fff;
+  color:#000;
+  text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+  text-transform: uppercase; 
 }
 
 header .logo i{
