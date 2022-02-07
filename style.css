@@ -110,7 +110,8 @@ header .logo i{
 header .navbar a{
   font-size: 2rem;
   margin-left: 2rem;
-  color:#fff;
+  color:#000;
+  text-shadow: 0 0 10px #FFFFFF;
 }
 
 header .navbar a:hover{
