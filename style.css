@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bevan:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga:wght@200;300;400;600;700&display=swap');
 
 :root{
   --brown:#8B5A17;
 }
 
 *{
-  font-family: 'Bevan';
+  font-family: 'Calistoga';
   margin:0; padding:0;
   box-sizing: border-box;
   outline: none; border:none;
@@ -515,7 +515,7 @@ input{
 
 /* footer starts */
 .footer{
-  background:#000;
+  background:#fff;
   text-align: center;
 }
 
@@ -534,7 +534,7 @@ input{
 }
 
 .footer .credit span{
-  color:var(--red);
+  color:var(--brown);
 }
 /* footer ends */
 
