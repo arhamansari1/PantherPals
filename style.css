@@ -120,6 +120,7 @@ header .navbar a{
 
 header .navbar a:hover{
   color:var(--brown);
+  text-shadow: 0 0 10px #fff;
 }
 /* header ends */
 
