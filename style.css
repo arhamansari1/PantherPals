@@ -95,12 +95,14 @@ header{
 }
 
 header .logo{
-  font-size: 4rem;
-  font-weight: bolder;
-  color:#000;
-  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
-  color: #8B5A17 ;
-  background: #FBC108;
+  font-size: 4.5rem;
+  font-weight: bold;
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: #8b5b17;
+  -webkit-text-fill-color: #ffffff;
+  letter-spacing: 2px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-transform: uppercase;
   text-transform: uppercase;
 }
 
