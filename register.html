@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Roulette </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="index.html" class="logo"><i class="fas fa-utensils"></i>Restaurant Roulette</a>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="guest.html">guest</a>
+        <a href="register.html">register</a>
+        <a href="login.html">login</a>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+<!-- register section starts  -->
+
+<section class="register" id="register">
+
+    <h1 class="heading"> <span>register</span> now </h1>
+	<h1 align="center", style="font-size:32px">register now</h1>
+
+
+    <div class="row">
+        
+        <div class="image">
+            <img src="images/loader.gif" alt="">
+        </div>
+
+        <form action="/reg" method = "POST">
+
+            <div class="inputBox">
+                <input name=firstname type="text" placeholder="first name">
+                <input name=lastname type="text" placeholder="last name">
+                <input name=email type="email" placeholder="email">
+                <input name=num type="number" placeholder="number">
+            </div>
+        
+            
+        
+            <div class="inputBox">
+                      
+            </div>
+        
+            <div class="inputBox">
+                <input input name=user type="text" placeholder="username">
+                <input input name=pass type="text" placeholder="password">
+            </div>
+        
+            <!-- <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea> -->
+            
+            <input type="submit" value="register" class="btn">
+        
+            </form>
+
+    </div>
+
+</section>
+
+<!-- register section ends -->
+
+
+
+</section>
+
+<!-- scroll top button  -->
+<a href="register.html" class="fas fa-angle-up" id="scroll-top"></a>
+
+<!-- loader  -->
+<div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div>
+
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
