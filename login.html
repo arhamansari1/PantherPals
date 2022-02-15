@@ -33,33 +33,25 @@
 
 <!-- header section ends -->
 <!-- login section starts  -->
-
-<section class="login" id="login">
-
-	<h1 class="heading"> <span>login</span> now </h1>
-	<h1 align="center", style="font-size:32px">login now</h1>
-
-    <div class="row">
-        
-        <div class="image">
-            <img src="images/loader.gif" alt="">
-        </div>
-
-        <form action="auth" method="POST">
-
-            <div class="inputBox">
-                <input name = "username" type="text" placeholder="username">
-                <input name = "password" type="text" placeholder="password">
-            </div>
-
-
-            <!-- <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea> -->
-
-            <input type="submit" value="login" class="btn">
-
-        </form>
-
-    </div>
+<section>
+	
+<div class="login-page">
+  <div class="form">
+    <form class="register-form">
+      <input type="text" placeholder="name"/>
+      <input type="password" placeholder="password"/>
+      <input type="text" placeholder="email address"/>
+      <button>create</button>
+      <p class="message">Already registered? <a href="#">Sign In</a></p>
+    </form>
+    <form class="login-form">
+      <input type="text" placeholder="username"/>
+      <input type="password" placeholder="password"/>
+      <button>login</button>
+      <p class="message">Not registered? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div>
 
 </section>
 
