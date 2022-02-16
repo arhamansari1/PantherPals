@@ -44,6 +44,7 @@ section{
 
 .heading span{
   color:var(--brown);
+  text-shadow: 0 0 4px #fff;
 }
 
 /* button starts */
