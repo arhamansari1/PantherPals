@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		<title>Panther Pals Website</title>
+    		<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    		<link rel = "stylesheet" href = "style.css">
+	</head>
+<body>
+<!-- Header -->
+<header>
+	<div class="header">
+		<img src="site.png" alt="Logo" width="90" height="70">
+	</div>
+	<a href="#default" class="logo">  Panther Pals</a>
+	<nav class="navbar">
+        	<a href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        	<a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+        	<a href="register.html"><i class="fa fa-fw fa-book"></i> Register</a>
+        	<a href="about.html"><i class="fa fa-fw fa-envelope"></i> About</a>
+    	</nav>
+</header>
+
+<!-- header section ends -->
+<!-- register section starts  -->
+
+<section class="register" id="register">
+
+    <h1 class="heading"> <span>Register</span> Now </h1>
+
+
+    <div class="row">
+        
+        <div class="image">
+            <img src="site.png" alt="">
+        </div>
+
+        <form action="/reg" method = "POST">
+
+            <div class="inputBox">
+                <input name=firstname type="text" placeholder="first name">
+                <input name=lastname type="text" placeholder="last name">
+                <input name=email type="email" placeholder="email">
+                <input name=num type="number" placeholder="number">
+            </div>
+        
+            
+        
+            <div class="inputBox">
+                      
+            </div>
+        
+            <div class="inputBox">
+                <input input name=user type="text" placeholder="username">
+                <input input name=pass type="text" placeholder="password">
+            </div>
+        
+            <!-- <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea> -->
+            
+            <input type="submit" value="register" class="btn">
+        
+            </form>
+
+    </div>
+
+</section>
+
+<!-- register section ends -->
+
+<!-- scroll top button  -->
+<a href="register.html" class="fas fa-angle-up" id="scroll-top"></a>
+
+<!-- loader  -->
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
