@@ -36,9 +36,10 @@ section{
 
 .heading{
   text-align: center;
-  font-size: 3.5rem;
-  padding:1rem;
-  color:#666;
+  margin-top: 100px;
+  font-size: 5rem;
+  padding: 2rem;
+  color:#fff;
 }
 
 .heading span{
@@ -90,7 +91,7 @@ header{
   align-items: center;
   justify-content: space-between;
   background:#FBC108;
-  padding:2rem 9%;
+  padding:1rem 9%;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
@@ -103,7 +104,6 @@ header .logo{
   letter-spacing: 2px;
   font-family: 'Comic Sans MS', cursive, sans-serif;
   text-transform: uppercase;
-  text-transform: uppercase;
 }
 
 header .logo i{
@@ -113,6 +113,7 @@ header .logo i{
 
 header .navbar a{
   font-size: 2.3rem;
+  z-index: 1000;
   margin-left: 2.3rem;
   color:#fff;
   text-shadow: 0 0 5px #000;
@@ -376,7 +377,7 @@ header .navbar a:hover{
 }
 
 .register .row form .btn:hover{
-  background:var(--red);
+  background:var(--brown);
 }
 /* register ends */
 
@@ -771,7 +772,7 @@ input{
 
 .login-page {
   width: 360px;
-  padding: 8% 0 0;
+  padding: 15% 0 0;
   margin: auto;
 }
 .form {
