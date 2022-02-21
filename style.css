@@ -27,7 +27,7 @@ html{
 }
 
 body{
-  background:#000000;
+  background:#ffffff;
 }
 
 section{
@@ -859,16 +859,6 @@ input{
 }
 .container .info span .fa {
   color: #EF3B3A;
-}
-body {
-  background: #fff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #8B5A17, #FBC108);
-  background: -moz-linear-gradient(right, #8B5A17, #FBC108);
-  background: -o-linear-gradient(right, #8B5A17, #FBC108);
-  background: linear-gradient(to left, #8B5A17, #FBC108);
-  font-family: "Roboto", sans-serif;
-  -w8B5A17ebkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;      
 }
 /* login page style ends */
 
