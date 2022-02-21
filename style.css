@@ -27,7 +27,7 @@ html{
 }
 
 body{
-  background:#000000;
+  background:#ffffff;
 }
 
 section{
@@ -143,7 +143,7 @@ header .navbar a:hover{
   gap:1.5rem;
   min-height: 100vh;
   align-items: center;
-  background:url("9.png") no-repeat;
+  background:url(../images/home-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -567,7 +567,7 @@ input{
   right:2rem;
   padding:.5rem 1.5rem;
   font-size: 4rem;
-  background:var(--brown);
+  background:var(--red);
   color:#fff;
   border-radius: .5rem;
   transition: 1s linear;
@@ -859,16 +859,6 @@ input{
 }
 .container .info span .fa {
   color: #EF3B3A;
-}
-body {
-  background: #fff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(right, #8B5A17, #FBC108);
-  background: -moz-linear-gradient(right, #8B5A17, #FBC108);
-  background: -o-linear-gradient(right, #8B5A17, #FBC108);
-  background: linear-gradient(to left, #8B5A17, #FBC108);
-  font-family: "Roboto", sans-serif;
-  -w8B5A17ebkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;      
 }
 /* login page style ends */
 
